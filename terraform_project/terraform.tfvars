@@ -14,8 +14,8 @@ in_from_port = 0
 in_action = "allow"
 in_cidr = "0.0.0.0/0"
 
-ami = "Your Value"
-instance_type = "Your Value"
-bucket_name = "Your Value"
-outbound ="Your Value"
-inbound = "Your Value"
+ami = "ami-0c55b159cbfafe1f0"
+instance_type = "t2.micro"
+bucket_name = "Farag_bucket"
+outbound ="Allow all outbound traffic"
+inbound = "Allow SSH (port 22) from 0.0.0.0/0"
