@@ -10,5 +10,5 @@ variable "instance_type" {
 
 variable "public_subnet" {
     description= "its the public subnet id"
-    type=string
+    type= string
 }
